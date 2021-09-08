@@ -14,6 +14,7 @@ app.get('/integrantes', function (req, res) {
   res.send(integrantes)
 })
 
+
 //ruta que muestra el objeto de los signos
 app.get('/signos', function (req, res) {
   const json = fs.readFileSync('./JSON/signos.json');
@@ -21,6 +22,8 @@ app.get('/signos', function (req, res) {
   res.send(signos)
 })
 
+=======
+>>>>>>> 27baf6e885b3de622a5a6529bcaeec9d93e7fb56
 //
 
 
