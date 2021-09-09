@@ -22,9 +22,5 @@ app.get('/signos', function (req, res) {
   res.send(signos)
 })
 
-=======
->>>>>>> 27baf6e885b3de622a5a6529bcaeec9d93e7fb56
-//
-
 
 app.listen(3000)
